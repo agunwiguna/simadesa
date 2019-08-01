@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Simadesa</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Info Desa</string>
+    <string name="slide_1_desc">Dafatkan berita terbaru dari Desa Babakan Asem </string>
+    <string name="slide_2_title">UMKM Desa </string>
+    <string name="slide_2_desc">Temukan produk unggulan dari Desa Babakan Asem</string>
+    <string name="slide_3_title">Usulan Warga</string>
+    <string name="slide_3_desc">Berikan usulan terbaik bagi kemajuan Desa Babakan Asem</string>
+    <string name="play_again_desc">Untuk mwlihatnya lagi Settings -> apps -> Intro View -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_home">Home</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_struktur">Struktur</string>
+    <string name="title_profile">Profile</string>
+    <string name="visi">
+        Berdasarkan kondisi Desa Babakan Asem Kecamatan Conggeang Kabupaten Sumedang saat ini, tantangan yang dihadapi dalam 5 (lima) tahun mendatang dengan memperhitungkan modal dasar yang dimiliki oleh Desa Babakan Asem dan amanat pembangunan yang tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Visi dalam RPJM Nasional dan RPJMD Provinsi Jawa Barat maka visi pembangunan desa Babakan Asem tahun 2012-2017 adalah : “Desa Babakan Asem yang Cerdas, Berbudaya serta Sejahtera”.
+    </string>
+    <string name="misi">
+        Visi pembangunan Desa Babakan Asem ke depan diharapkan mampu mewujudkan kebutuhan dan amanat masyarakat dengan tetap mengacu pada maksud otonomi daerah dalam UU Nomor 32 Tahun 2004 tentang Pemerintahan Daerah yaitu daerah yang mempunyai kemandirian, daya saing dan mampu memberikan pelayanan publik dalam rangka pencapaian tujuan nasional. Visi pembangunan harus dapat diukur untuk mengetahui tingkat berbudaya dan kesejahteraan yang ingin dicapai. “Cerdas” mengandung masyarakat desa Babakan Asem untuk tingkat pendidikan sudah mulai naik dengan rata-rata minimal SLTP. “Berbudaya” mengandung maksud masyarakat yang berakhlak mulia, bermoral, beretika, berbudaya dan beradab serta mandiri berdasarkan falsafah Pancasila. “Kesejahteraan” terdiri dari dan mengandung maksud Kemajuan Desa, keadalian dan kemakmuran.
+    </string>
+    <string name="title_activity_coba">CobaActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="recent_news">Da Nang International Fireworks Festival 2017</string>
+    <string name="in_news">Da Nang International Fireworks Festival 2017Update: Dec 08, 2016 (TITC) - Da Nang International Fireworks Festival 2017 (DIFF 2017) with the theme “Shining Marble Mountains” will take place for two months, from 29 April to 24 June 2017 with the aim to Da Nang become a unique cultural festival tourism space. </string>
+    <string name="publish_date">2017-04-30 12:13:14</string>
+    <string name="title_activity_agenda">AgendaActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="token">Token : %s</string>
+
+</resources>

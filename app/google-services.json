@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "542710138221",
+    "firebase_url": "https://simadesa-98da1.firebaseio.com",
+    "project_id": "simadesa-98da1",
+    "storage_bucket": "simadesa-98da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542710138221:android:5b27a4812558a59c",
+        "android_client_info": {
+          "package_name": "com.agunwgn.simadesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542710138221-94l5tnc8pbbotq5so0mfcoi5u50ma9fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzC5zAe4bUNfkuUeZmgJTPT7XVoGw_VW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542710138221-94l5tnc8pbbotq5so0mfcoi5u50ma9fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542710138221:android:f7890979772ce58d",
+        "android_client_info": {
+          "package_name": "com.ciamiscode.simadesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542710138221-94l5tnc8pbbotq5so0mfcoi5u50ma9fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzC5zAe4bUNfkuUeZmgJTPT7XVoGw_VW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542710138221-94l5tnc8pbbotq5so0mfcoi5u50ma9fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

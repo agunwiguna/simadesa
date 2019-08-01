@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailMitraActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/AppTheme">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="simadesa"
+                android:layout_gravity="center"
+                android:textColor="@color/bg_splash"
+                android:id="@+id/myText"
+                android:textSize="24sp"
+                android:fontFamily="@font/baloo_bhai"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/appBar"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/appBar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_detail_mitra"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                tools:src="@android:color/darker_gray"
+                android:layout_centerHorizontal="true"
+                android:elevation="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="85dp"
+                    app:contentPaddingTop="15dp"
+                    app:contentPaddingRight="15dp"
+                    app:contentPaddingLeft="15dp"
+                    app:contentPaddingBottom="15dp"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_nama_detail_mitra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="Nama Mitra"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_marginTop="60dp"
+                            android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/rubik_regular"/>
+                        <TextView
+                            android:id="@+id/txt_detail_kerjasama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="Bentuk Kerja Sama Mitra"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:layout_marginTop="@dimen/activity_vertical_margin">
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                                    android:text="Kontak Mitra"/>
+                                <TextView
+                                    android:id="@+id/txt_detail_kontak_mitra"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_weight="1"
+                                    tools:text="085323567654"
+                                    android:textColor="@android:color/black"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                                    android:text="Alamat Mitra "/>
+                                <TextView
+                                    android:id="@+id/txt_detail_alamat_mitra"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_weight="1"
+                                    tools:text="Alamat"
+                                    android:textColor="@android:color/black"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                                    android:text="Awal Kerjasama "/>
+                                <TextView
+                                    android:id="@+id/txt_detail_awal_mitra"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_weight="1"
+                                    tools:text="2020-03-02"
+                                    android:textColor="@android:color/black"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                                    android:text="Akhir Kerjasama "/>
+                                <TextView
+                                    android:id="@+id/txt_detail_akhir_mitra"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:layout_weight="1"
+                                    tools:text="2020-03-02"
+                                    android:textColor="@android:color/black"/>
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
